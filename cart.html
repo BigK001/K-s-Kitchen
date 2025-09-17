@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - K's Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">🍴 K's Kitchen</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Checkout Section -->
+  <main class="checkout">
+    <h2>Order Confirmation</h2>
+    <p>Thank you for choosing <strong>K's Kitchen</strong>. Please confirm your order below and choose a payment option.</p>
+    
+    <div class="order-summary">
+      <h3>Your Order</h3>
+      <ul id="order-items">
+        <li>Jollof Rice × 2 — ₦4000</li>
+        <li>Suya × 1 — ₦1500</li>
+        <li>Zobo Drink × 2 — ₦1400</li>
+      </ul>
+      <p class="total"><strong>Total: ₦6900</strong></p>
+    </div>
+
+    <div class="checkout-buttons">
+      <button class="pay-now">💳 Pay Now</button>
+      <button class="pay-later">🕒 Pay Later</button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>🍴 K's Kitchen</h3>
+        <p>Delicious Nigerian meals delivered fresh to your doorstep.  
+           Order online, pay later, and enjoy the taste of home.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 K's Kitchen. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Button actions (simulation)
+    document.querySelector(".pay-now").addEventListener("click", function() {
+      alert("Redirecting to secure payment gateway...");
+    });
+
+    document.querySelector(".pay-later").addEventListener("click", function() {
+      alert("Order placed successfully! You can pay later upon delivery.");
+    });
+  </script>
+</body>
+</html>
